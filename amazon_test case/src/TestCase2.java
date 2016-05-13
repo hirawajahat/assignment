@@ -32,10 +32,10 @@ public class TestCase2 {
 	      
 	      driver.findElement(By.id ("nav-link-yourAccount")).click();
 	      driver.findElement(By.id ("ap_email")).click();
-	      driver.findElement(By.id("ap_email")).sendKeys("hirawajahat@gmail.com");
+	      driver.findElement(By.id("ap_email")).sendKeys("abc@gmail.com");
 
 	      driver.findElement(By.id ("ap_password")).click();
-	      driver.findElement(By.id("ap_password")).sendKeys("maaz2009");
+	      driver.findElement(By.id("ap_password")).sendKeys("abcdefg");
 
 	      driver.findElement(By.id ("signInSubmit")).click();
 	      driver.findElement(By.id ("nav-cart-count")).click();
